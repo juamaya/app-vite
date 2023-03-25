@@ -16,14 +16,14 @@ const Home = () => {
       <div className="container-fluid text-center fw-bold fs-4">Home</div>
       <div className="row">
         <div className="col-md-4">
-          <Card img={papa} texto="Juan" />
+          <Card img={papa} texto="Juan" href= "https://google.com" sitio="Google" />
         </div>
         <div className="col-md-4">
-          <Card img={juan} texto="YO" />
+          <Card img={juan} texto="YO" href="https://juamaya.github.io/curricujuan.github.io/"sitio="Curriculum"/>
         </div>
 
         <div className="col-md-4">
-          <Card img={mama} texto="Antonia" />
+          <Card img={mama} texto="Antonia" href=  "https://youtube.com"  sitio="youtube"/>
         </div>
         <hr />
         <div className="container-fluid text-center fw-bold fs-4">POKEMON</div>

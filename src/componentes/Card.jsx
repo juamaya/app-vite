@@ -14,7 +14,7 @@ const Card = (props) => {
           {props.texto}
           </p>
         </div>
-        <a href="http://google.com" target="_blank"  className="btn btn-primary">google.com</a>
+        <a href= {props.href} target="_blank"  className="btn btn-primary">{props.sitio}</a>
       </div>
     </>
   );

@@ -5,7 +5,7 @@ import mama from "../imagenes/mama.jpg";
 import juan from "../imagenes/juan.jpg";
 import VerPokemon from "../VerPokemon";
 import RickAndMorty from "../RickAndMorty";
-import Series from "../Series";
+ 
 import Reproductor from "../Reproductor";
 import BATTERY from '../videos/BATTERY.mp4'
 import SOLDADORA from '../videos/SOLDADORA.mp4'
@@ -33,19 +33,22 @@ const Home = () => {
           RickAndMorty
         </div>
         <RickAndMorty width="200 "/>
-       
         <hr />
+        <hr />
+        <div className="container-fluid text-center fw-bold fs-3">
+          VIDEOS
+        </div>
         <Reproductor video={BATTERY} />
         <hr />
         <Reproductor video={SOLDADORA} />
         <hr />
         <div className="container-fluid text-center fw-bold fs-3">
-          <h2>Series</h2>
-          <hr />
-          <Series  />
+          <h2>GALERIA DE FOTOS</h2>
+        
+           <a  className="btn btn-primary" href="https://juamaya.github.io"  target="_blank">VER GALERIA</a>
         </div>
        
-   
+        <hr />
 
       </div>
     </>

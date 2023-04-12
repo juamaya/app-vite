@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div >
       
-       <h1 className=" bg-primary text-center init">APP</h1>
+       <h1 className=" bg-primary text-center init">APP____AMAYA</h1>
        <Carrusel/>
        <hr/>
        <div className="container-fluid text-center fw-bold fs-4">Cards</div>

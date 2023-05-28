@@ -1,7 +1,7 @@
  
 import "./App.css";
 import Footer from "./componentes/Footer"; 
-import Home from "./componentes/Paginas/Home";
+ 
 import Carrusel from "./componentes/Carrusel";
 import Card from './componentes/Card'
 import BotonScroll from "./componentes/BotonScroll";
@@ -10,7 +10,7 @@ import VerPokemon from "./componentes/VerPokemon";
 import RickAndMorty from "./componentes/RickAndMorty";
 import Reproductor from "./componentes/Reproductor";
 import BATTERY from './componentes/videos/BATTERY.mp4'
-import SOLDADORA from './componentes/videos/SOLDADORA.mp4'
+ 
 
 import papa from "./componentes/imagenes/papa.jpg";
 import mama from "./componentes/imagenes/mama.jpg";
@@ -46,10 +46,10 @@ export default function App() {
        <hr/>
       <Tarjetas/>
       <hr />
-        <div className="container-fluid text-center fw-bold fs-4">POKEMON</div>
+        <div className="container-fluid text-center fw-bold fs-4">Personajes de POKEMON</div>
         <VerPokemon width="200" />
         <hr />
-        <div className="container-fluid text-center fw-bold fs-3">
+        <div className="container-fluid text-center fw-bold fs-3">Personajes de
           RickAndMorty
         </div>
         <RickAndMorty width="200 "/>
@@ -59,7 +59,7 @@ export default function App() {
     Videos
           <Reproductor video={BATTERY} />
           
-          <Reproductor video={SOLDADORA} />
+       
 
         </div>
        

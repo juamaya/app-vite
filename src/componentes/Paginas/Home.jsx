@@ -8,7 +8,7 @@ import RickAndMorty from "../RickAndMorty";
  
 import Reproductor from "../Reproductor";
 import BATTERY from '../videos/BATTERY.mp4'
-import SOLDADORA from '../videos/SOLDADORA.mp4'
+ 
 
 const Home = () => {
   return (
@@ -26,14 +26,7 @@ const Home = () => {
           <Card img={mama} texto="Antonia" href=  "https://youtube.com"  sitio="youtube"/>
         </div>
         <hr />
-        <div className="container-fluid text-center fw-bold fs-4">POKEMON</div>
-        <VerPokemon width="200" />
-        <hr />
-        <div className="container-fluid text-center fw-bold fs-3">
-          RickAndMorty
-        </div>
-        <RickAndMorty width="200 "/>
-        <hr />
+        
         <hr />
         <div className="container-fluid text-center fw-bold fs-3">
           VIDEOS

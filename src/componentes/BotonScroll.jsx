@@ -2,7 +2,7 @@ import React from "react";
 
 const BotonScroll = () => {
   scroll = () => {
-    const elemento = document.querySelector(".init");
+    const elemento = document.querySelector(".init-scroll");
     elemento.scrollIntoView("smooth", "start");
   };
 

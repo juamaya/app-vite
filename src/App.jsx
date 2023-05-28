@@ -26,7 +26,7 @@ export default function App() {
   return (
     <div >
       
-       <h1 className=" bg-primary text-center init">APP____AMAYA</h1>
+       <h1 className=" bg-primary text-center init-scroll">APP____AMAYA</h1>
        <Carrusel/>
        <hr/>
        <div className="row text-center container-fluid">
@@ -55,7 +55,7 @@ export default function App() {
         <RickAndMorty width="200 "/>
         <hr />
 
-        <div className="container-fluid text-center d-flex  fw-bold fs-3 ">
+        <div className="container  text-center d-flex  fw-bold fs-3 ">
     Videos
           <Reproductor video={BATTERY} />
           
@@ -67,7 +67,7 @@ export default function App() {
         <div className="container-fluid text-center fw-bold fs-3">
           <h2>GALERIA DE FOTOS</h2>
         
-           <a  className="btn btn-primary" href="https://juamaya.github.io"  target="_blank">VER GALERIA</a>
+           <a  className="btn btn-primary" href="https://juamaya.github.io/galeria"  target="_blank">VER GALERIA</a>
         </div>
 
        <hr/>

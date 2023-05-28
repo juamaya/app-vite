@@ -8,7 +8,7 @@ const Reproductor = (props) => {
       <div className="mx-5">
     
       
-        <ReactPlayer url={props.video} width="100%"  controls />
+        <ReactPlayer url={props.video} width="90%"  controls />
          
       </div>
     </>
